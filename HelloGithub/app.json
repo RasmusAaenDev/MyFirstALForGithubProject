@@ -10,7 +10,6 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "22.0.0.0",
@@ -19,6 +18,26 @@
       "from": 50000,
       "to": 50149
     }
+  ],
+  "dependencies": [
+  {
+    "id": "e1d97edc-c239-46b4-8d84-6368bdf67c8b",
+    "name": "E-Document Core",
+    "publisher": "Microsoft",
+    "version": "23.0.0.0"
+  },
+  {
+      "id": "75f1590f-55c5-4501-ae63-bada5534e852",
+      "name": "Performance Toolkit",
+      "publisher": "Microsoft",
+      "version": "24.1.18927.19498"
+  },
+  {
+    "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+    "name": "Tests-TestLibraries",
+    "publisher": "Microsoft",
+    "version": "24.1.18927.19498"
+  }
   ],
   "features": [
     "NoImplicitWith"
