@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="da-DK" original="Hello World">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3075650061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automotive</source>
+          <target>Køretøj</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Automotive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3075650061 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Beskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Automotive - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3075650061 - Field 143010134 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fuel Type</source>
+          <target>Brændstof</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Automotive - Field Fuel Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3075650061 - Field 3647128553 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manufacturer</source>
+          <target>Producent</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Automotive - Field Manufacturer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3075650061 - Field 1695122201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Model</source>
+          <target>Model</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Automotive - Field Model - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3075650061 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Automotive - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3075650061 - Field 2832340769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year</source>
+          <target>År</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Automotive - Field Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1559074781 - Control 3230621205 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies sales invoices that are not yet posted or only partially posted.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Act. - Control Ongoing Sales Invoices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1559074781 - Control 1615783776 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies sales orders that are not yet posted or only partially posted.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Act. - Control Ongoing Sales Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1559074781 - Control 2094009364 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies sales quotes that have not yet been converted to invoices or orders.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Act. - Control Ongoing Sales Quotes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1559074781 - Control 25536090 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sum of sales in the current month excluding taxes.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Act. - Control Sales This Month - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1559074781 - Control 2272765270 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Automotives field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Act. - Control Total Automotives - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1559074781 - Control 1266199820 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Diesel Automotives field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Act. - Control Total Diesel Automotives - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1069579377 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>About the Automotive</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Card - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 1069579377 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The automotive details can help you setup a basic automotive, which can later be used for automotive rentals.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Card - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Page 1069579377 - Control 4126130292 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manage automotive configurations</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Card - Control Configuration - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 1069579377 - Control 4126130292 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Here you can specify the model and manufacturer details, about the automotive.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Card - Control Configuration - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Page 1069579377 - Control 4126130292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Configuration</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Card - Control Configuration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1069579377 - Control 143010134 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Define the Fuel Type</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Card - Control Fuel Type - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Page 1069579377 - Control 143010134 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Fuel Type field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Card - Control Fuel Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1069579377 - Control 143010134 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specify which kind of fuel this automotive is going to need, to operate</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Card - Control Fuel Type - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Page 1069579377 - Control 3647128553 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Manufacturer field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Card - Control Manufacturer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1069579377 - Control 1695122201 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Model field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Card - Control Model - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1069579377 - Control 2832340769 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Year field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Card - Control Year - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1069579377 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Card - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1069579377 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Card - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3782029603 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automotive List</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3782029603 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3782029603 - Control 143010134 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Fuel Type field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive List - Control Fuel Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3782029603 - Control 3647128553 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Manufacturer field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive List - Control Manufacturer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3782029603 - Control 1695122201 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Model field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive List - Control Model - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3782029603 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3782029603 - Control 2832340769 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Year field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive List - Control Year - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3939119160 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automotive</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Automotive Role Center - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2931038265 - Control 3168444338 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer's address. This address will appear on all sales documents for the customer.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MyPage - Control Address - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2931038265 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Amount field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MyPage - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2931038265 - Control 25700210 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Balance field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MyPage - Control Balance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2931038265 - Control 2178647059 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MyPage - Control Balance (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2931038265 - Control 2883274974 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Balance Due field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MyPage - Control Balance Due - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2931038265 - Control 230205143 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the balance due for this customer in local currency.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MyPage - Control Balance Due (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 876187135 - ReportLabel 1582893390" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List of Automotives</source>
+          <target>List over Køretøjer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report AutomotiveReport - ReportLabel TitleLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1255613137 - Action 2846204132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Hello World</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerListExt - Action HelloWorld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1255613137 - Action 2846204132 - Method 1377591017 - NamedType 1087802150" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1255613137">
+          <source>Hello %1!</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerListExt - Action HelloWorld - Method OnAction - NamedType myLabel</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 270556606 - Field 2272765270 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 132259524">
+          <source>Total Automotives</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Automotive Act. Ext - Field Total Automotives - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 270556606 - Field 1266199820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 132259524">
+          <source>Total Diesel Automotives</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Automotive Act. Ext - Field Total Diesel Automotives - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 143010134 - EnumValue 1820646502 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Diesel</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Fuel Type - EnumValue Diesel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 143010134 - EnumValue 2999244085 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electric</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Fuel Type - EnumValue Electric - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 143010134 - EnumValue 1337538192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gasoline</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Fuel Type - EnumValue Gasoline - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
