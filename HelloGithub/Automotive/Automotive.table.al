@@ -75,10 +75,8 @@ table 50100 Automotive
             exit;
 
         if Rec."No." = '' then begin
-            AutomotiveSetup.InsertIfNotExists();
-            if AutomotiveSetup."No. Series" = '' then
-                if Confirm('You havn''t setup your No. Series, would you like to do it now?', true) then
-                    Page.RunModal(Page::"Automotive Setup");
+            if GuiAllowed() then
+                VerifySetupExists(AutomotiveSetup);
 
             AutomotiveSetup.InsertIfNotExists();
             AutomotiveSetup.TestField("No. Series");
@@ -94,6 +92,14 @@ table 50100 Automotive
 
         if Rec.Description = '' then
             Rec.Description := Rec."No.";
+    end;
+
+    local procedure VerifySetupExists(var AutomotiveSetup: Record "Automotive Setup")
+    begin
+        AutomotiveSetup.InsertIfNotExists();
+        if AutomotiveSetup."No. Series" = '' then
+            if Confirm('You havn''t setup your No. Series, would you like to do it now?', true) then
+                Page.RunModal(Page::"Automotive Setup");
     end;
 
     [IntegrationEvent(false, false)]

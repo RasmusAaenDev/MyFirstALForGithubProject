@@ -60,6 +60,7 @@ codeunit 50007 "Automotive Assisted Setup Subs"
     local procedure "Guided Experience_OnAfterRunAssistedSetup"(ExtensionID: Guid; ObjectType: ObjectType; ObjectID: Integer)
     var
         AutomotiveSetup: Record "Automotive Setup";
+        CustomDimensions: Dictionary of [Text, Text];
     begin
         if ExtensionID <> GetMyAppId() then
             exit;
@@ -67,10 +68,19 @@ codeunit 50007 "Automotive Assisted Setup Subs"
         if (ObjectType <> ObjectType::Page) or (ObjectID <> Page::AutomotiveAssistedSetup) then
             exit;
 
+        CustomDimensions.Add('Assisted Setup Status', 'Complete');
+
         AutomotiveSetup.InsertIfNotExists();
         if AutomotiveSetup."No. Series" <> '' then begin
             UpdatedSetupStatus();
             Message('Congratulations you have completed the Automotive Setup.');
+
+            LogMessage('318bba46-dc69-4490-b7b1-f012ef6a5e78',
+                'Automotive Assisted Setup Has Completed',
+                Verbosity::Verbose,
+                DataClassification::SystemMetadata,
+                TelemetryScope::All,
+                CustomDimensions);
         end;
 
     end;
