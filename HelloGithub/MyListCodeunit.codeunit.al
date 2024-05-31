@@ -22,7 +22,6 @@ codeunit 50005 MyListCodeunit
             StringOfNames += AutomotiveName;
         end;
 
-
         Message(StringOfNames);
     end;
 

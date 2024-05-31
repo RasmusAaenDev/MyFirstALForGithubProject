@@ -1,24 +1,23 @@
 {
-  "id": "0a980a8c-f869-472c-aa94-d64f8d984fdd",
-  "name": "HelloGithub",
+  "id": "5936f8af-1080-4725-9df9-0b7e72748784",
+  "name": "Hello World",
   "publisher": "Rasmus",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
-  "screenshots": [],
+  "version": "2.1.0.0",
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "24.0.0.0",
+  "runtime": "13.0",
   "idRanges": [
-    {
-      "from": 50000,
-      "to": 50149
-    }
+      {
+          "from": 50000,
+          "to": 50049
+      },
+      {
+          "from": 50100,
+          "to": 50149
+      }
   ],
+  "features": ["TranslationFile"],
+
   "dependencies": [
   {
     "id": "e1d97edc-c239-46b4-8d84-6368bdf67c8b",
@@ -31,20 +30,6 @@
       "name": "Performance Toolkit",
       "publisher": "Microsoft",
       "version": "24.1.18927.19498"
-  },
-  {
-    "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
-    "name": "Tests-TestLibraries",
-    "publisher": "Microsoft",
-    "version": "24.1.18927.19498"
   }
-  ],
-  "features": [
-    "NoImplicitWith"
-  ],
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+  ]
 }
