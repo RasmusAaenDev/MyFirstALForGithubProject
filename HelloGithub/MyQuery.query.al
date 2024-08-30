@@ -1,4 +1,4 @@
-query 50000 MyQuery
+query 50000 "OTL MyQuery"
 {
     QueryType = API;
     EntityName = 'SalesData';

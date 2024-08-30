@@ -1,14 +1,14 @@
 /// <summary>
-/// Table Automotive (ID 50100)
-/// This table is a collection of all automotives in the organization
+/// Table "OTL Car" (ID 50100)
+/// This table is a collection of all Cars in the organization
 /// </summary>
-table 50100 Automotive
+table 50100 Car
 {
     DataClassification = CustomerContent;
-    Caption = 'Automotive';
+    Caption = 'Car';
     DataCaptionFields = "No.", Description;
-    LookupPageId = "Automotive List";
-    DrillDownPageId = "Automotive List";
+    LookupPageId = "Car List";
+    DrillDownPageId = "Car List";
 
     fields
     {
@@ -24,18 +24,18 @@ table 50100 Automotive
             trigger OnValidate()
             begin
                 if Rec.Description = 'John' then
-                    Error('Your automotive cannot be named John');
+                    Error('Your Car cannot be named John');
             end;
         }
         field(3; Manufacturer; Code[20])
         {
             Caption = 'Manufacturer';
-            TableRelation = "Automotive Manufacturer";
+            TableRelation = "Car Manufacturer";
         }
         field(4; Model; Code[50])
         {
             Caption = 'Model';
-            TableRelation = "Automotive Model";
+            TableRelation = "Car Model";
         }
         field(5; Year; Integer)
         {
@@ -64,10 +64,10 @@ table 50100 Automotive
 
     trigger OnInsert()
     var
-        AutomotiveSetup: Record "Automotive Setup";
+        CarSetup: Record "Car Setup";
         IsHandled: Boolean;
         NoSeries: Codeunit "No. Series";
-        Automotive: Record Automotive;
+        Car: Record Car;
     begin
         IsHandled := false;
         OnBeforeInsertValidation(Rec, IsHandled);
@@ -75,20 +75,18 @@ table 50100 Automotive
             exit;
 
         if Rec."No." = '' then begin
-            AutomotiveSetup.InsertIfNotExists();
-            if AutomotiveSetup."No. Series" = '' then
-                if Confirm('You havn''t setup your No. Series, would you like to do it now?', true) then
-                    Page.RunModal(Page::"Automotive Setup");
+            if GuiAllowed() then
+                VerifySetupExists(CarSetup);
 
-            AutomotiveSetup.InsertIfNotExists();
-            AutomotiveSetup.TestField("No. Series");
+            CarSetup.InsertIfNotExists();
+            CarSetup.TestField("No. Series");
 
-            Rec."No." := NoSeries.GetNextNo(AutomotiveSetup."No. Series");
+            Rec."No." := NoSeries.GetNextNo(CarSetup."No. Series");
 
-            Automotive.ReadIsolation(IsolationLevel::ReadUncommitted);
-            Automotive.SetLoadFields("No.");
-            while Automotive.Get(Rec."No.") do
-                Rec."No." := NoSeries.GetNextNo(AutomotiveSetup."No. Series");
+            Car.ReadIsolation(IsolationLevel::ReadUncommitted);
+            Car.SetLoadFields("No.");
+            while Car.Get(Rec."No.") do
+                Rec."No." := NoSeries.GetNextNo(CarSetup."No. Series");
         end;
 
 
@@ -96,8 +94,16 @@ table 50100 Automotive
             Rec.Description := Rec."No.";
     end;
 
+    local procedure VerifySetupExists(var CarSetup: Record "Car Setup")
+    begin
+        CarSetup.InsertIfNotExists();
+        if CarSetup."No. Series" = '' then
+            if Confirm('You havn''t setup your No. Series, would you like to do it now?', true) then
+                Page.RunModal(Page::"Car Setup");
+    end;
+
     [IntegrationEvent(false, false)]
-    local procedure OnBeforeInsertValidation(var Automotive: Record Automotive; var IsHandled: Boolean)
+    local procedure OnBeforeInsertValidation(var Car: Record Car; var IsHandled: Boolean)
     begin
     end;
 

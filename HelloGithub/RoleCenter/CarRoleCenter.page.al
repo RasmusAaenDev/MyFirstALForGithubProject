@@ -1,7 +1,7 @@
-page 50004 "Automotive Role Center"
+page 50004 "OTL Car Role Center"
 {
     PageType = RoleCenter;
-    Caption = 'Automotive';
+    Caption = 'Car';
 
     layout
     {
@@ -11,7 +11,7 @@ page 50004 "Automotive Role Center"
             {
                 ApplicationArea = All;
             }
-            part(Activities; "Automotive Act.")
+            part(Activities; "Car Act.")
             {
                 ApplicationArea = All;
             }
@@ -34,39 +34,39 @@ page 50004 "Automotive Role Center"
     {
         area(Creation)
         {
-            action(ExportAutomotives)
+            action(ExportCars)
             {
                 ApplicationArea = All;
-                Caption = 'Export Automotives';
-                RunObject = xmlport AutomotiveExport;
+                Caption = 'Export Cars';
+                RunObject = xmlport CarExport;
             }
         }
         area(Reporting)
         {
-            action(AutomotiveReport)
+            action(CarReport)
             {
                 ApplicationArea = All;
-                Caption = 'List of Automotives';
-                ToolTip = 'Print a list of automotives';
-                RunObject = report AutomotiveReport;
+                Caption = 'List of Cars';
+                ToolTip = 'Print a list of Cars';
+                RunObject = report CarReport;
             }
         }
 
         area(Processing)
         {
-            action(AutomotiveSetup)
+            action(CarSetup)
             {
                 ApplicationArea = All;
-                Caption = 'Automotive Setup';
-                ToolTip = 'Setup for our Automotives';
-                RunObject = page "Automotive Setup";
+                Caption = 'Car Setup';
+                ToolTip = 'Setup for our Cars';
+                RunObject = page "Car Setup";
             }
 
-            action(AutomotiveWizard)
+            action(CarWizard)
             {
                 ApplicationArea = All;
-                Caption = 'Start the Automotive Setup Wizard';
-                RunObject = page AutomotiveAssistedSetup;
+                Caption = 'Start the Car Setup Wizard';
+                RunObject = page CarAssistedSetup;
             }
         }
     }

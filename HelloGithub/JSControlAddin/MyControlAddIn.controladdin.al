@@ -1,4 +1,4 @@
-controladdin MyControlAddIn
+controladdin "OTL MyControlAddIn"
 {
     RequestedHeight = 300;
     MinimumHeight = 300;

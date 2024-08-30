@@ -1,4 +1,4 @@
-table 50002 "Automotive Setup"
+table 50002 "OTL Car Setup"
 {
     DataClassification = SystemMetadata;
     fields

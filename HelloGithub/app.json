@@ -30,6 +30,12 @@
       "name": "Performance Toolkit",
       "publisher": "Microsoft",
       "version": "24.1.18927.19498"
+  },
+  {
+    "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+    "name": "Tests-TestLibraries",
+    "publisher": "Microsoft",
+    "version": "24.1.18927.19498"
   }
   ]
 }

@@ -1,4 +1,4 @@
-report 50000 AutomotiveReport
+report 50000 "OTL CarReport"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
@@ -6,42 +6,42 @@ report 50000 AutomotiveReport
 
     dataset
     {
-        dataitem(Automotive; Automotive)
+        dataitem(Car; Car)
         {
-            column(No_Automotive; "No.")
+            column(No_Car; "No.")
             {
             }
-            column(Description_Automotive; Description)
+            column(Description_Car; Description)
             {
             }
-            column(Model_Automotive; Model)
+            column(Model_Car; Model)
             {
             }
-            column(Manufacturer_Automotive; Manufacturer)
+            column(Manufacturer_Car; Manufacturer)
             {
             }
-            column(FuelType_Automotive; "Fuel Type")
+            column(FuelType_Car; "Fuel Type")
             {
             }
-            column(Year_Automotive; Year)
+            column(Year_Car; Year)
             {
             }
-            column(No_AutomotiveCpt; FieldCaption("No."))
+            column(No_CarCpt; FieldCaption("No."))
             {
             }
-            column(Description_AutomotiveCpt; FieldCaption(Description))
+            column(Description_CarCpt; FieldCaption(Description))
             {
             }
-            column(Model_AutomotiveCpt; FieldCaption(Model))
+            column(Model_CarCpt; FieldCaption(Model))
             {
             }
-            column(Manufacturer_AutomotiveCpt; FieldCaption(Manufacturer))
+            column(Manufacturer_CarCpt; FieldCaption(Manufacturer))
             {
             }
-            column(FuelType_AutomotiveCpt; FieldCaption("Fuel Type"))
+            column(FuelType_CarCpt; FieldCaption("Fuel Type"))
             {
             }
-            column(Year_AutomotiveCpt; FieldCaption(Year))
+            column(Year_CarCpt; FieldCaption(Year))
             {
             }
 
@@ -59,19 +59,19 @@ report 50000 AutomotiveReport
         layout(WordReport)
         {
             Type = Word;
-            LayoutFile = './Reports/Automotive.docx';
+            LayoutFile = './Reports/Car.docx';
         }
 
         layout(ExcelReport)
         {
             Type = Excel;
-            LayoutFile = './Reports/Automotive.xlsx';
+            LayoutFile = './Reports/Car.xlsx';
         }
     }
 
     labels
     {
-        TitleLbl = 'List of Automotives';
+        TitleLbl = 'List of Cars';
     }
 
     var

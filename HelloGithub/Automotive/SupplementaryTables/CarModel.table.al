@@ -1,15 +1,15 @@
-table 50000 "Automotive Manufacturer"
+table 50001 "OTL Car Model"
 {
     DataClassification = SystemMetadata;
-    Caption = 'Manufacturer';
-    LookupPageId = "Automotive Manufacturer";
+    Caption = 'Model';
+    LookupPageId = "Car Model";
 
     fields
     {
-        field(1; "Manufacturer Code"; Code[20])
+        field(1; "Model Code"; Code[20])
         {
             DataClassification = SystemMetadata;
-            Caption = 'Manufacturer Code';
+            Caption = 'Model Code';
 
         }
 
@@ -22,7 +22,7 @@ table 50000 "Automotive Manufacturer"
 
     keys
     {
-        key(Key1; "Manufacturer Code")
+        key(Key1; "Model Code")
         {
             Clustered = true;
         }

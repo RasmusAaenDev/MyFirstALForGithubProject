@@ -1,4 +1,4 @@
-page 50007 ControlAddinPage
+page 50007 "OTL ControlAddinPage"
 {
     PageType = Card;
     ApplicationArea = All;

@@ -1,21 +1,21 @@
 
-codeunit 50003 ExportXMLPort
+codeunit 50003 "OTL ExportXMLPort"
 {
     procedure DownloadXMLPort()
     var
         FileMgt: Codeunit "File Management";
-        AutomotiveXMLPort: XmlPort AutomotiveExport;
+        CarXMLPort: XmlPort CarExport;
         TempBlob: Codeunit "Temp Blob";
         OStream: OutStream;
         IStream: InStream;
         Filename: Text;
     begin
-        Filename := 'Automotives.xml';
+        Filename := 'Cars.xml';
         TempBlob.CreateOutStream(OStream);
-        AutomotiveXMLPort.SetDestination(OStream);
-        AutomotiveXMLPort.Export();
+        CarXMLPort.SetDestination(OStream);
+        CarXMLPort.Export();
 
         TempBlob.CreateInStream(IStream);
-        File.DownloadFromStream(IStream, 'Download Automotive XML', '', FileMgt.GetToFilterText('', 'Automotives.xml'), Filename);
+        File.DownloadFromStream(IStream, 'Download Car XML', '', FileMgt.GetToFilterText('', 'Cars.xml'), Filename);
     end;
 }

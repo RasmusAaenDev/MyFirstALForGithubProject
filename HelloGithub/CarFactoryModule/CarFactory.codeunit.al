@@ -1,4 +1,4 @@
-codeunit 50001 "Car Factory"
+codeunit 50001 "OTL Car Factory"
 {
     var
         CarFactoryImpl: Codeunit "Car Factory Impl.";

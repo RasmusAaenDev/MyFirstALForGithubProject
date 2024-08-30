@@ -1,9 +1,9 @@
-page 50008 "Automotive Setup"
+page 50008 "OTL Car Setup"
 {
 
     PageType = Card;
-    SourceTable = "Automotive Setup";
-    Caption = 'Automotive Setup';
+    SourceTable = "Car Setup";
+    Caption = 'Car Setup';
     InsertAllowed = false;
     DeleteAllowed = false;
     UsageCategory = Administration;

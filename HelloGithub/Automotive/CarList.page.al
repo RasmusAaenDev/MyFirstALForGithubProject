@@ -1,18 +1,18 @@
-page 50001 "Automotive List"
+page 50001 "OTL Car List"
 {
-    Caption = 'Automotive List';
+    Caption = 'Car List';
     PageType = List;
     ApplicationArea = All;
     UsageCategory = Lists;
-    SourceTable = Automotive;
+    SourceTable = Car;
     Editable = false;
-    CardPageId = "Automotive Card";
+    CardPageId = "Car Card";
 
     layout
     {
         area(Content)
         {
-            repeater(Automotives)
+            repeater(Cars)
             {
                 field("No."; Rec."No.")
                 {
@@ -74,7 +74,7 @@ page 50001 "Automotive List"
                 var
                     MyListCodeunit: Codeunit MyListCodeunit;
                 begin
-                    MyListCodeunit.GoThroughAllAutomotives();
+                    MyListCodeunit.GoThroughAllCars();
                 end;
             }
 
@@ -127,6 +127,23 @@ page 50001 "Automotive List"
                     MyListCodeunit: Codeunit MyListCodeunit;
                 begin
                     MyListCodeunit.ConvertTextToNumber('John Doe, is not my name');
+                end;
+            }
+
+            action(RequestJSONPlaceHolder)
+            {
+                ApplicationArea = All;
+                Promoted = true;
+                PromotedCategory = Process;
+                PromotedIsBig = true;
+                PromotedOnly = true;
+                Caption = 'Request JSON Placeholder';
+
+                trigger OnAction()
+                var
+                    WebRequestExample: Codeunit "Web Request Example";
+                begin
+                    WebRequestExample.RequestJsonPlaceHolder();
                 end;
             }
         }

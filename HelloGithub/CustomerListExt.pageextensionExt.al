@@ -1,10 +1,10 @@
-pageextension 50000 "CustomerListExt" extends "Customer List"
+pageextension 50000 "OTL CustomerListExt" extends "Customer List"
 {
     actions
     {
         addfirst(processing)
         {
-            action(HelloWorld)
+            action("OTL HelloWorld")
             {
                 ApplicationArea = All;
                 Caption = 'Hello World';

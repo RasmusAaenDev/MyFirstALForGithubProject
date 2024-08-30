@@ -1,9 +1,9 @@
-page 50009 AutomotiveAssistedSetup
+page 50009 "OTL CarAssistedSetup"
 {
     PageType = NavigatePage;
-    SourceTable = "Automotive Setup";
+    SourceTable = "Car Setup";
     SourceTableTemporary = true;
-    Caption = 'Initialize Automotive Setup';
+    Caption = 'Initialize Car Setup';
 
     layout
     {
@@ -13,13 +13,13 @@ page 50009 AutomotiveAssistedSetup
             {
                 Visible = Step1Visible;
 
-                group("Welcome")
+                group(Welcome)
                 {
-                    Caption = 'Welcome to the Automotive assisted setup';
+                    Caption = 'Welcome to the Car assisted setup';
                     group(group11)
                     {
                         Caption = '';
-                        InstructionalText = 'Use this guide to completed the Automotive setup.';
+                        InstructionalText = 'Use this guide to completed the Car setup.';
                     }
                 }
                 group("Let's go")
@@ -45,7 +45,7 @@ page 50009 AutomotiveAssistedSetup
             group(Step3)
             {
                 Caption = 'That''s it!';
-                InstructionalText = 'Select Finish to save the Automotive Setup.';
+                InstructionalText = 'Select Finish to save the Car Setup.';
                 Visible = Step3Visible;
 
             }
@@ -93,7 +93,7 @@ page 50009 AutomotiveAssistedSetup
                     NextStep(true);
                 end;
             }
-            action(Next)
+            action("Next")
             {
                 ApplicationArea = All;
                 Caption = '&Next';
@@ -132,8 +132,8 @@ page 50009 AutomotiveAssistedSetup
 
     trigger OnOpenPage()
     begin
-        AutomotiveSetup.InsertIfNotExists();
-        Rec := AutomotiveSetup;
+        CarSetup.InsertIfNotExists();
+        Rec := CarSetup;
         CurrPage.Update();
     end;
 
@@ -145,7 +145,7 @@ page 50009 AutomotiveAssistedSetup
         Step2Visible: Boolean;
         Step3Visible: Boolean;
         Step: Option Start,Fill,Finish;
-        AutomotiveSetup: Record "Automotive Setup";
+        CarSetup: Record "Car Setup";
         TopBannerVisible: Boolean;
         FinishActionEnabled: Boolean;
         MediaRepositoryDone: Record "Media Repository";
@@ -220,8 +220,8 @@ page 50009 AutomotiveAssistedSetup
 
     local procedure StoreRecordVar();
     begin
-        AutomotiveSetup.TransferFields(Rec, true);
-        AutomotiveSetup.Modify();
+        CarSetup.TransferFields(Rec, true);
+        CarSetup.Modify();
     end;
 
     local procedure LoadTopBanners();

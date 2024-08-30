@@ -1,26 +1,27 @@
-codeunit 50005 MyListCodeunit
+codeunit 50005 "OTL MyListCodeunit"
 {
-    procedure GoThroughAllAutomotives()
+    procedure GoThroughAllCars()
     var
-        Automotive: Record Automotive;
-        AutomotiveBuffer: Record Automotive temporary;
-        AutomotiveList: List of [Text];
-        AutomotiveName: Text;
+        Car: Record Car;
+        CarBuffer: Record Car temporary;
+        CarList: List of [Text];
+        CarName: Text;
         StringOfNames: Text;
     begin
-        Automotive.SetLoadFields(Description);
-        if Automotive.FindSet() then
+        Car.SetLoadFields(Description);
+        if Car.FindSet() then
             repeat
-                if not AutomotiveList.Contains(Automotive.Description) then
-                    AutomotiveList.Add(Automotive.Description);
-            until Automotive.Next() = 0;
+                if not CarList.Contains(Car.Description) then
+                    CarList.Add(Car.Description);
+            until Car.Next() = 0;
 
-        foreach AutomotiveName in AutomotiveList do begin
+        foreach CarName in CarList do begin
             if StringOfNames <> '' then
                 StringOfNames += ', ';
 
-            StringOfNames += AutomotiveName;
+            StringOfNames += CarName;
         end;
+
 
         Message(StringOfNames);
     end;

@@ -1,4 +1,4 @@
-enumextension 50000 "MyEDocument Ext" extends "E-Document Format"
+enumextension 50000 "OTL MyEDocument Ext" extends "E-Document Format"
 {
     value(50000; "Custom PEPOL")
     {

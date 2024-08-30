@@ -1,4 +1,4 @@
-pagecustomization VendorListCust customizes "Vendor List"
+pagecustomization "OTL VendorListCust" customizes "Vendor List"
 {
     layout
     {

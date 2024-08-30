@@ -1,4 +1,4 @@
-codeunit 50008 "Create Sales Order"
+codeunit 50008 "OTL Create Sales Order"
 {
     Subtype = Test;
 

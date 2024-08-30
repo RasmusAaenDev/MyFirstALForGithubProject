@@ -1,10 +1,10 @@
-page 50002 "Automotive Card"
+page 50002 "OTL Car Card"
 {
     PageType = Card;
     ApplicationArea = All;
-    SourceTable = Automotive;
-    AboutTitle = 'About the Automotive';
-    AboutText = 'The automotive details can help you setup a basic automotive, which can later be used for automotive rentals.';
+    SourceTable = Car;
+    AboutTitle = 'About the Car';
+    AboutText = 'The Car details can help you setup a basic Car, which can later be used for Car rentals.';
 
     layout
     {
@@ -23,13 +23,13 @@ page 50002 "Automotive Card"
             }
             group(Configuration)
             {
-                AboutTitle = 'Manage automotive configurations';
-                AboutText = 'Here you can specify the model and manufacturer details, about the automotive.';
+                AboutTitle = 'Manage Car configurations';
+                AboutText = 'Here you can specify the model and manufacturer details, about the Car.';
                 Caption = 'Configuration';
                 field("Fuel Type"; Rec."Fuel Type")
                 {
                     AboutTitle = 'Define the Fuel Type';
-                    AboutText = 'Specify which kind of fuel this automotive is going to need, to operate';
+                    AboutText = 'Specify which kind of fuel this Car is going to need, to operate';
                     ToolTip = 'Specifies the value of the Fuel Type field.', Comment = '%';
                 }
                 field(Manufacturer; Rec.Manufacturer)

@@ -1,4 +1,4 @@
-page 50000 MyPage
+page 50000 "OTL MyPage"
 {
     PageType = Card;
     ApplicationArea = All;

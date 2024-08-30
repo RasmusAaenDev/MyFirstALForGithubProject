@@ -1,4 +1,4 @@
-enum 50000 "Fuel Type"
+enum 50000 "OTL Fuel Type"
 {
     Extensible = true;
 

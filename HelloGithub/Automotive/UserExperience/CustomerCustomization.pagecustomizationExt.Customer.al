@@ -1,4 +1,4 @@
-pagecustomization CustomerCustomization customizes "Customer List"
+pagecustomization "OTL CustomerCustomization" customizes "Customer List"
 {
     layout
     {

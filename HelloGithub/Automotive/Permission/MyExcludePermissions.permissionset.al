@@ -2,5 +2,5 @@
 // {
 //     Assignable = false;
 //     Permissions =
-//         tabledata "Automotive Setup" = mid;
+//         tabledata "Car Setup" = mid;
 // }

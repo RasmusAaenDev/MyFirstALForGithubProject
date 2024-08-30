@@ -1,4 +1,4 @@
-codeunit 50006 TryCodeunit
+codeunit 50006 "OTL TryCodeunit"
 {
     TableNo = Customer;
     trigger OnRun()

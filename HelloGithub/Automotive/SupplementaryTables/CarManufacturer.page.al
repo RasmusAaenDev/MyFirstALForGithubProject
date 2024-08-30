@@ -1,8 +1,8 @@
-page 50006 "Automotive Model"
+page 50005 "OTL Car Manufacturer"
 {
-    Caption = 'Model';
+    Caption = 'Manufacturer';
     PageType = List;
-    SourceTable = "Automotive Model";
+    SourceTable = "Car Manufacturer";
 
     layout
     {
@@ -11,10 +11,10 @@ page 50006 "Automotive Model"
             repeater(Group)
             {
 
-                field("Model Code"; Rec."Model Code")
+                field("Manufacturer Code"; Rec."Manufacturer Code")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the Model Code field.', Comment = '%';
+                    ToolTip = 'Specifies the value of the Manufacturer Code field.', Comment = '%';
                 }
                 field(Description; Rec.Description)
                 {

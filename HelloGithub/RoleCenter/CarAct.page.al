@@ -1,4 +1,4 @@
-page 50003 "Automotive Act."
+page 50003 "OTL Car Act."
 {
     PageType = CardPart;
     SourceTable = "Activities Cue";
@@ -9,18 +9,18 @@ page 50003 "Automotive Act."
     {
         area(Content)
         {
-            cuegroup("Activities")
+            cuegroup(Activities)
             {
 
-                field("Total Automotives"; Rec."Total Automotives")
+                field("Total Cars"; Rec."Total Cars")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the Total Automotives field.', Comment = '%';
+                    ToolTip = 'Specifies the value of the Total Cars field.', Comment = '%';
                 }
-                field("Total Diesel Automotives"; Rec."Total Diesel Automotives")
+                field("Total Diesel Cars"; Rec."Total Diesel Cars")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the Total Diesel Automotives field.', Comment = '%';
+                    ToolTip = 'Specifies the value of the Total Diesel Cars field.', Comment = '%';
                 }
                 field("Sales This Month"; Rec."Sales This Month")
                 {
